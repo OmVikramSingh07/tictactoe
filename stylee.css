@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #7f2ccb;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(38, 188, 156);
+    color: black;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+nav ul{
+    list-style: none;
+}
+
+.gamecontainer{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+}
+
+.box{
+    height: 16vmin;
+    width: 16vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 10vmin;
+    color: black;
+    background-color: white;
+}
+
+.box:hover{
+    border: 2px solid #FE4A49;
+}
+
+#reset{
+    padding: 1rem;
+    font-size: 1.3rem;
+    background-color: #FE4A49;
+    color: black;
+    border-radius: 1rem;
+    border: none;
+}
+
+#reset:hover{
+    border: 1px solid #ffffff;
+}
+
+#new{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    padding: 1rem;
+    color: #F4F4F9; /*ghost white  */
+    font-size: 8vmin;
+}
+
+.mssg{
+    height: 40vmin;
+}
+
+.hide{
+    display: none;
+}
+
+#new:hover{
+    border: 1px solid #ffffff;
+}
